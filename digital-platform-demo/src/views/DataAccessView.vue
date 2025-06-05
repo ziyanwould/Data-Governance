@@ -43,7 +43,7 @@
           </el-table-column>
            <el-table-column label="操作">
             <template #default="scope">
-              <el-button size="small" type="danger" @click="removeApiSource(scope.)">删除</el-button>
+              <el-button size="small" type="danger" @click="removeApiSource(scope.$index)">删除</el-button>
             </template>
           </el-table-column>
         </el-table>
@@ -98,7 +98,7 @@
           </el-table-column>
           <el-table-column label="操作">
             <template #default="scope">
-              <el-button size="small" type="danger" @click="removeDbConnection(scope.)">删除</el-button>
+              <el-button size="small" type="danger" @click="removeDbConnection(scope.$index)">删除</el-button>
             </template>
           </el-table-column>
         </el-table>
@@ -135,7 +135,7 @@
           <el-table-column prop="uploadDate" label="上传日期" />
           <el-table-column label="操作">
             <template #default="scope">
-              <el-button size="small" type="danger" @click="removeUploadedFile(scope.)">删除</el-button>
+              <el-button size="small" type="danger" @click="removeUploadedFile(scope.$index)">删除</el-button>
             </template>
           </el-table-column>
         </el-table>

@@ -61,7 +61,7 @@ import { HomeFilled, Upload, Operation, CircleCheck, Filter, Document, Share } f
   line-height: 60px;
 }
 .app-sidebar {
-  background-color: #f4f6f8; // Lighter gray for sidebar
+  background-color: #f4f6f8; /* Lighter gray for sidebar */
   border-right: 1px solid #e0e0e0;
 }
 .app-sidebar .el-menu {
