@@ -76,6 +76,6 @@ import { HomeFilled, Upload, Operation, CircleCheck, Filter, Document, Share } f
 }
 .app-main {
   padding: 20px;
-  background-color: #ffffff; // White background for main content
+  background-color: #ffffff; /* White background for main content */
 }
 </style>
